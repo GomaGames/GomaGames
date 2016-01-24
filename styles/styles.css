@@ -1,3 +1,7 @@
+body{
+  background-color: #FCFAF2;
+}
+
 a{
   color: #74C4BC;
 }
@@ -46,6 +50,12 @@ h6 a:hover{
 h1.ui.header{
   font-size: 1.5rem;
   margin-bottom: 0.25rem;
+  color: #444;
+}
+
+h1.ui.inverted.header{
+  margin-top: 0;
+  color: #FCFAF2;
 }
 
 @media only screen and (min-width: 530px){
@@ -100,6 +110,12 @@ h1.ui.header + h3{
 }
 
 .ui.inverted.segment.footer p{
-  color: #CCC;
+  color: #FCFAF2;
   text-align: center;
+  font-weight: normal;
+}
+
+.logo svg{
+  width: 100px;
+  height: 100px;
 }
